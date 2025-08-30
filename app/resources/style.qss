@@ -1,0 +1,14 @@
+/* Simple dark theme */
+* { color: #d0d0d0; }
+QWidget { background-color: #1e1e1e; }
+QGroupBox { border: 1px solid #333; border-radius: 6px; margin-top: 12px; }
+QGroupBox::title { subcontrol-origin: margin; left: 10px; padding: 0 4px; color: #9cdcfe; }
+QLineEdit, QPlainTextEdit, QTextEdit, QComboBox, QSpinBox, QDoubleSpinBox { background: #252526; border: 1px solid #3c3c3c; padding: 4px; border-radius: 4px; }
+QPushButton { background: #2d2d30; border: 1px solid #3c3c3c; padding: 6px 10px; border-radius: 4px; }
+QPushButton:hover { background: #3a3a3d; }
+QTableWidget { gridline-color: #333; }
+QHeaderView::section { background: #2a2a2a; border: 1px solid #3c3c3c; padding: 4px; }
+QStatusBar { background: #202020; }
+QProgressBar { border: 1px solid #3c3c3c; border-radius: 3px; text-align: center; }
+QProgressBar::chunk { background-color: #0e639c; }
+
